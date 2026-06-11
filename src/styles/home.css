@@ -1,0 +1,54 @@
+.rewardBox {
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto 18px;
+    padding: 28px;
+    border-radius: 30px;
+    border: 1px solid rgba(250, 204, 21, 0.16);
+    background: rgba(15, 23, 42, 0.88);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.rewardBox p {
+    margin: 0 0 10px;
+    color: #94a3b8;
+    font-size: 15px;
+}
+
+.rewardBox strong {
+    display: block;
+    font-size: 52px;
+    color: #facc15;
+    line-height: 1.1;
+    margin-bottom: 14px;
+}
+
+.rewardBox small {
+    display: block;
+    color: #64748b;
+    line-height: 1.5;
+}
+
+.rewardRate {
+    min-width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 10px solid rgba(250, 204, 21, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rewardRate b {
+    font-size: 42px;
+    color: #facc15;
+}
+
+.rewardRate span {
+    color: #94a3b8;
+    margin-top: 6px;
+}

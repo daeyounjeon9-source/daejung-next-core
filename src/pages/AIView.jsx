@@ -1,0 +1,1 @@
+import AdminLayout from "../components/AdminLayout";export default function AIView(){return <AdminLayout><h1>AI 시점</h1><div className="admin-panel">AI 분석과 추천 영역</div></AdminLayout>}

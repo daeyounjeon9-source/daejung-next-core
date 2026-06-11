@@ -1,0 +1,34 @@
+DAEJUNG NEXT v2005(2) AUTH/POLICY PATCH REPORT
+
+기준 파일: v2005(2).zip
+수정 범위: 1차방 기본 레이아웃/바탕은 재설계하지 않고 로그인·회원가입·판매자·관리자·로그아웃·고지 문구만 보강
+
+수정 파일:
+- src/context/AuthContext.jsx
+- src/App.jsx
+- src/pages/Login.jsx
+- src/pages/Signup.jsx
+- src/pages/SellerLogin.jsx
+- src/pages/SellerSignup.jsx
+- src/pages/AdminLogin.jsx
+- src/pages/Home.jsx
+- src/styles/mainHome.css
+
+반영 내용:
+1. 구매자/고객회원가입/일반회원 로그인 문구를 로그인/회원가입 기준으로 정리
+2. 판매자 로그인 페이지 추가 및 /seller-login 라우트 추가
+3. 로그인 화면에 로그아웃 기준을 고려한 회원 상태 구조 유지
+4. 홈 상단/모바일 메뉴에 로그인 상태 시 로그아웃 표시
+5. 관리자 로그인 링크의 회원가입 문구 정리
+6. 개인정보·AI 서비스·외부판매 금지·판매자 운영규정 안내를 유리글라스 카드 스타일로 보강
+7. 대정넥스트 화이트/실버/블루 유리글라스 스타일을 유지하는 CSS만 추가
+
+확인한 것:
+- ZIP 루트에 package.json/index.html/src/vite.config.js 존재
+- 방 안에 방 구조 없음
+- npm run build 성공
+
+확인 못 한 것:
+- 실제 사용자 PC/휴대폰에서 모든 버튼 클릭 검수
+- 실제 DB 저장
+- 실제 결제/정산 연동

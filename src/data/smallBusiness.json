@@ -1,0 +1,8 @@
+[
+  {"id":"small-01","title":"안동 사과 선물세트","region":"경북 안동","badge":"농산물","desc":"농산물 > 과일 > 사과 구조로 전체상품관에 연결되는 지역상품입니다.","image":"https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=900&q=80","target":"농산물"},
+  {"id":"small-02","title":"나주 배 선물세트","region":"전남 나주","badge":"농산물","desc":"농산물 > 과일 > 배 구조로 분류되는 지역 대표상품입니다.","image":"https://images.unsplash.com/photo-1601876819102-9952f9eb3c39?auto=format&fit=crop&w=900&q=80","target":"농산물"},
+  {"id":"small-03","title":"영광 굴비 세트","region":"전남 영광","badge":"수산물","desc":"수산물 > 생선 > 굴비 구조로 분류되는 명절·선물 상품입니다.","image":"https://images.unsplash.com/photo-1510130387422-82bed34b37e9?auto=format&fit=crop&w=900&q=80","target":"수산물"},
+  {"id":"small-04","title":"완도 전복 세트","region":"전남 완도","badge":"수산물","desc":"수산물 > 패류·해산물 > 전복 구조로 연결합니다.","image":"https://images.unsplash.com/photo-1559737558-2f5a35f4523b?auto=format&fit=crop&w=900&q=80","target":"수산물"},
+  {"id":"small-05","title":"국산 벌꿀 세트","region":"지역양봉","badge":"농가상품","desc":"농산물·가공식품 경계 품목은 AI 검증 후 대표분류를 고정합니다.","image":"https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=900&q=80","target":"농산물"},
+  {"id":"small-06","title":"전통 한과 선물세트","region":"전통식품","badge":"전통시장","desc":"가공식품 > 전통과자 > 한과 구조로 분류합니다.","image":"https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=900&q=80","target":"가공식품"}
+]

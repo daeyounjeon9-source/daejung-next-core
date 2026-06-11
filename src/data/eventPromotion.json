@@ -1,0 +1,8 @@
+[
+  {"id":"event-01","title":"오늘의 지역특가","region":"이벤트","badge":"오늘특가","desc":"특별관에서 홍보하고 전체상품관에서 안전하게 비교합니다.","image":"https://images.unsplash.com/photo-1607083206968-13611e3d76db?auto=format&fit=crop&w=900&q=80","target":"전체상품관"},
+  {"id":"event-02","title":"반값 기획전","region":"이벤트","badge":"반값","desc":"반값·특별할인 후보 상품을 이벤트관에서 묶어 보여줍니다.","image":"https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=900&q=80","target":"전체상품관"},
+  {"id":"event-03","title":"시즌 선물전","region":"이벤트","badge":"시즌","desc":"명절·계절·지역행사 상품을 시즌별로 구성합니다.","image":"https://images.unsplash.com/photo-1512909006721-3d6018887383?auto=format&fit=crop&w=900&q=80","target":"전체상품관"},
+  {"id":"event-04","title":"LIVE 홍보 예정관","region":"이벤트","badge":"LIVE예정","desc":"라이브 예정 상품을 홍보관에서 먼저 알리고 본관으로 연결합니다.","image":"https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80","target":"전체상품관"},
+  {"id":"event-05","title":"중소기업 응원전","region":"이벤트","badge":"응원전","desc":"중소기업·소상공인 상품을 집중 노출하는 이벤트 영역입니다.","image":"https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=900&q=80","target":"문의"},
+  {"id":"event-06","title":"지역상생 기획전","region":"이벤트","badge":"상생","desc":"지역 농수산물·전통시장·자영업자 상품을 함께 보여줍니다.","image":"https://images.unsplash.com/photo-1533900298318-6b8da08a523e?auto=format&fit=crop&w=900&q=80","target":"전체상품관"}
+]

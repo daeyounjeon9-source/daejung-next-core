@@ -1,0 +1,29 @@
+DAEJUNGNEXT V3006 FIX REPORT - 2026-06-11
+
+수정 항목:
+1. 회원가입/로그인 화면 번역 오인 방지
+   - auth main에 translate="no" 적용
+   - 비밀번호/비밀번호 확인 라벨에 translate="no" 적용
+   - 크롬 자동번역으로 '비밀번호'가 이상하게 보이는 현상 완화
+
+2. 4차 구매결정쇼룸 모바일 가독성 강화
+   - 단계 버튼 글씨 진한 검정/네이비 계열로 변경
+   - 단계 버튼 높이/굵기/대비 강화
+   - 장바구니/결제테스트/전체상품관/판매자검증/LIVE운영 버튼 대비 강화
+   - 모바일에서는 2열 또는 1열로 안정화
+
+3. Vercel 배포 설정 안정화
+   - vercel.json 추가
+   - framework: vite
+   - buildCommand: npm run build
+   - outputDirectory: dist
+   - SPA rewrite: /index.html
+
+4. 의존성 재설치 및 빌드 확인
+   - npm install 완료
+   - npm run build 성공
+
+빌드 확인 결과:
+✓ vite build 성공
+✓ dist 생성 성공
+주의: chunk 500kB 경고는 실행 차단 오류가 아니며 추후 최적화 항목입니다.

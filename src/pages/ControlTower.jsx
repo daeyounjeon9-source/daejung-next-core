@@ -1,0 +1,1 @@
+import AdminLayout from "../components/AdminLayout";export default function ControlTower(){return <AdminLayout><h1>컨트롤타워</h1><div className="admin-panel">통합 관제 영역</div></AdminLayout>}

@@ -1,0 +1,46 @@
+DAEJUNG NEXT V3010 전체검수/수정 보고서 - 2026-06-11
+
+검수 기준 파일: v3010.zip
+수정본명: DAEJUNGNEXT_V3010_FULL_CHECK_FIX_20260611.zip
+
+1. 터미널 검수
+- 최초 npm run build: 실패
+  원인: ZIP 안 node_modules/.bin/vite 실행 권한 및 심볼릭 링크 구조 깨짐
+- 조치: node_modules 재설치 후 빌드 검수
+- 최종 npm run build: 성공
+
+2. 전체 구조 확인
+- React + Vite 프로젝트 정상
+- 주요 라우트 정상 존재: /, /promotion, /commerce, /decision-room, /admin-login, /admin-dashboard 등
+- 전체상품 데이터: 540개
+- 상품군: 30개
+- 홍보관 데이터: 홍보영상/소상공인/자영업자/기업홍보/이벤트 각 6개씩, 총 30개
+
+3. 발견한 핵심 문제
+- 홍보관 카드 내부 '상품보기' 버튼에서 goProducts 미정의 런타임 오류 가능
+- /promotion -> / 로 돌아올 때 state target=products를 Home이 처리하지 않아 전체상품관으로 바로 이동하지 못함
+- Home 컴포넌트 재진입 시 인트로가 다시 뜨는 구조라 뒤로가기/방 이동 시 인트로로 튕기는 문제 발생 가능
+- ZIP 포함 node_modules는 실행권한/심볼릭 링크 문제로 다른 PC에서 build 실패 가능
+
+4. 수정 사항
+- PromotionHall.jsx
+  * PromotionCard에 onProducts prop 추가
+  * 카드별 상품보기 버튼이 정상적으로 전체상품관 이동 함수를 호출하도록 수정
+  * 불필요한 React import 제거
+
+- Home.jsx
+  * useLocation 추가
+  * /promotion에서 navigate('/', { state: { target: 'products' } })로 돌아오면 자동으로 전체상품관(products) 위치로 이동
+  * 인트로는 세션 첫 진입 1회만 표시하도록 수정
+  * 뒤로가기/홍보관/전체상품관 재진입 시 인트로로 다시 튕기는 문제 방지
+  * 인트로 시간 7200ms -> 5200ms로 단축
+
+5. 최종 빌드 결과
+- npm run build 성공
+- dist 생성 완료
+- Vite 경고: JS chunk 500KB 초과 경고 있음. 기능 실패는 아니며 추후 코드 분리 대상.
+
+6. 주의
+- Firebase 실제 인증은 아직 완전 연결 상태가 아니라 localStorage 기반 인증 + 관리자 seed 계정 구조임.
+- 관리자 기본 seed: admin@daejungnext.com / neon2016!!
+- Firebase 콘솔 키와 firebase/auth 연동은 다음 보안 단계에서 별도 적용 필요.

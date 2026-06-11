@@ -1,0 +1,1 @@
+import AdminLayout from "../components/AdminLayout";export default function NeuralCore(){return <AdminLayout><h1>Neural Core</h1><div className="admin-panel">AI 신경핵 구조</div></AdminLayout>}

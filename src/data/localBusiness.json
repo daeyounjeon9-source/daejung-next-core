@@ -1,0 +1,8 @@
+[
+  {"id":"local-01","title":"카페 원두 패키지","region":"자영업자","badge":"카페","desc":"카페 매장 홍보와 원두 상품을 함께 보여주는 문의 중심 카드입니다.","image":"https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=900&q=80","target":"문의"},
+  {"id":"local-02","title":"수제 베이커리 세트","region":"베이커리","badge":"수제상품","desc":"예약·포장·배송 가능 여부를 문의로 연결합니다.","image":"https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=80","target":"문의"},
+  {"id":"local-03","title":"꽃집 플라워박스","region":"꽃집","badge":"예약문의","desc":"기념일·기업선물·정기배송 같은 상담형 상품에 적합합니다.","image":"https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=80","target":"문의"},
+  {"id":"local-04","title":"지역 맛집 밀키트","region":"식당","badge":"로컬맛집","desc":"식당 대표 메뉴를 밀키트·간편식으로 홍보합니다.","image":"https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80","target":"가공식품"},
+  {"id":"local-05","title":"지역 반찬 정기배송","region":"반찬가게","badge":"정기배송","desc":"자영업자 상품 중 반복구매 가능성이 높은 상품군입니다.","image":"https://images.unsplash.com/photo-1543353071-10c8ba85a904?auto=format&fit=crop&w=900&q=80","target":"식품"},
+  {"id":"local-06","title":"동네 공방 수공예품","region":"공방","badge":"수공예","desc":"수공예품·생활소품·선물용 상품을 홍보관에서 소개합니다.","image":"https://images.unsplash.com/photo-1452860606245-08befc0ff44b?auto=format&fit=crop&w=900&q=80","target":"수공예품"}
+]

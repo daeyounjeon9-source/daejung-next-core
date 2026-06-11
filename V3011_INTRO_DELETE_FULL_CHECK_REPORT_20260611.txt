@@ -1,0 +1,26 @@
+DAEJUNG NEXT V3011 INTRO DELETE / FULL CHECK REPORT
+Date: 2026-06-11
+Base: DAEJUNGNEXT_V3010_FULL_CHECK_FIX_20260611.zip
+
+핵심 처리:
+1. 첫 화면 인트로 완전 제거
+   - src/pages/Home.jsx 에서 daejungIntroLogo import 제거
+   - showIntro state 제거
+   - 인트로 렌더링 JSX 제거
+   - sessionStorage 기반 dn_intro_seen_v3010 로직 제거
+   - 뒤로가기/첫진입/홍보관→전체상품관 이동에서 인트로가 개입하지 않도록 변경
+   - src/styles/mainHome.css 마지막에 dn-intro 관련 화면 강제 비활성화 안전장치 추가
+
+2. 방 이동 유지
+   - /promotion 특별관 진입 라우트 유지
+   - 특별관 상품보기 → / 로 복귀하면서 state target products 전달 유지
+   - Home 진입 시 state target products 이면 3차방 전체상품관으로 이동 유지
+
+3. 빌드 검수
+   - npm install 후 npm run build 성공
+   - Vite production build 성공
+
+주의:
+- Firebase 실제 인증 완전 연결은 별도 보안 작업 필요
+- chunk size warning은 빌드 실패가 아니며 현재 기능 동작과 무관
+- node_modules는 ZIP에서 제외함

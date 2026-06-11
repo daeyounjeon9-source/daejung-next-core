@@ -1,0 +1,8 @@
+[
+  {"id":"company-01","title":"삼성 생활가전 기획 홍보","region":"대기업","badge":"브랜드","desc":"생활가전 대표 브랜드 상품을 전체상품관으로 연결합니다.","image":"https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=900&q=80","target":"생활가전"},
+  {"id":"company-02","title":"LG 오브제 생활가전 홍보","region":"대기업","badge":"브랜드","desc":"냉장고·세탁기·건조기 등 생활가전 상품군과 연결합니다.","image":"https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=900&q=80","target":"생활가전"},
+  {"id":"company-03","title":"현대 계열 브랜드 홍보관","region":"대기업","badge":"기업홍보","desc":"기업 브랜드·제휴·홍보 영상 카드로 활용합니다.","image":"https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=900&q=80","target":"문의"},
+  {"id":"company-04","title":"신세계 계열 유통 홍보관","region":"대기업","badge":"유통","desc":"브랜드관·기획전·이벤트 노출에 적합한 기업홍보 영역입니다.","image":"https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=900&q=80","target":"문의"},
+  {"id":"company-05","title":"중소기업 주방용품 기획전","region":"중소기업","badge":"주방","desc":"중소기업 주방·생활용품을 특별관에서 먼저 노출합니다.","image":"https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=900&q=80","target":"주방"},
+  {"id":"company-06","title":"국산 생활용품 브랜드전","region":"중소기업","badge":"생활용품","desc":"국내 중소 브랜드 제품을 비교·추천 구조로 연결합니다.","image":"https://images.unsplash.com/photo-1583947581924-a6d1cbbfd7ce?auto=format&fit=crop&w=900&q=80","target":"생활용품"}
+]

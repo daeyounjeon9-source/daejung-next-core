@@ -1,0 +1,1 @@
+import AdminLayout from "../components/AdminLayout";export default function AdminOrders(){return <AdminLayout><section className="admin-top"><div><h1>주문관리</h1><p>주문 목록</p></div></section><div className="admin-panel"><div className="log-item">1001 · AI 추천 패키지 · 결제완료</div><div className="log-item">1002 · 라이브 상품 · 배송준비</div></div></AdminLayout>}

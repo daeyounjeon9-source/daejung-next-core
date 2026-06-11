@@ -1,0 +1,22 @@
+DAEJUNG NEXT CLEAN 2FIX 2026-06-10
+
+요청 범위 딱 2개만 처리:
+1) 하단 검은색 중복 방향키 제거
+   - src/App.css 의 검은색 FINAL NAV 패치 제거
+   - src/styles/mainHome.css 의 검은색 FINAL NAV 패치 제거
+   - 기존 유리/파란 방향키 1개만 남김
+
+2) 첫 인트로 복구
+   - src/pages/Home.jsx
+   - sessionStorage daejung_intro_seen 차단 제거
+   - 앱 진입 시 인트로가 다시 나오도록 showIntro 초기값 복구
+
+추가 정리:
+- SSS/sss2_promotion_patch 폴더 제거
+- sss.zip 제거
+- ZIP 안에 새 SSS 방/중간방/감싼 폴더 없음
+- 루트 그대로 압축
+
+주의:
+- 이 환경에서는 node_modules의 rolldown linux optional binding이 없어 npm run build 확인은 실패함.
+- 소스 수정은 완료됨.

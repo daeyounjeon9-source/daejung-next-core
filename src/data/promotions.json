@@ -1,0 +1,8 @@
+[
+  {"id":"video-01","title":"지역상품 영상관","region":"전국","badge":"홍보영상","desc":"산지·제조·매장 이야기를 영상 카드로 보여주는 특별관 대표 영역입니다.","image":"https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80","target":"전체상품관"},
+  {"id":"video-02","title":"LIVE 예정 홍보관","region":"LIVE","badge":"LIVE예정","desc":"라이브 예정 상품과 홍보 영상을 먼저 노출하고 문의로 연결합니다.","image":"https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=900&q=80","target":"전체상품관"},
+  {"id":"video-03","title":"브랜드 스토리관","region":"기업·중소기업","badge":"브랜드","desc":"브랜드 소개, 제조과정, 제품 철학을 한 화면에서 보여줍니다.","image":"https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80","target":"문의"},
+  {"id":"video-04","title":"전통시장 영상관","region":"지역시장","badge":"시장홍보","desc":"전통시장 대표상품과 상인 스토리를 홍보 중심으로 배치합니다.","image":"https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=900&q=80","target":"전체상품관"},
+  {"id":"video-05","title":"로컬푸드 생산지관","region":"지역농가","badge":"산지","desc":"생산지, 재배환경, 출하 정보를 카드와 영상으로 연결합니다.","image":"https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=900&q=80","target":"전체상품관"},
+  {"id":"video-06","title":"중소기업 신제품관","region":"중소기업","badge":"신제품","desc":"신규 제품을 홍보관에서 먼저 노출한 뒤 전체상품관으로 연결합니다.","image":"https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=80","target":"전체상품관"}
+]

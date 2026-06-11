@@ -1,0 +1,1 @@
+import AdminLayout from "../components/AdminLayout";export default function Coin(){return <AdminLayout><h1>코인/포인트</h1><div className="admin-panel">포인트 생태계</div></AdminLayout>}
